@@ -1,29 +1,122 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-image: url(arkaplan.jpg);
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+
+nav ul li a{
+  margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: #E79947;
+}
+nav ul{
+  text-align: center;
+}
+nav ul li a:hover{
+  background-color: white;
+  color: aqua;
+}
+
+div {
+ text-align: center;
+  background-color: antiquewhite;
+  padding: 0 10px;
+  background-size: 300px 300px;
+}
+.yemekler {
+  width: 900px;
+  margin: auto;
+  float: left;
+    padding: 0 10px 10px 0;
+    
+}
+
+
+.Aperatifler {
+  width: 900px;
+  margin: auto;
+  float: right;
+    padding: 0 10px 10px 0;
+    background-color: blueviolet;
+    
+}
+
+.Tatlılar {
+  width: 900px;
+  margin: auto;
+  float: left;
+  padding: 0 10px 10px 0;
+ 
+}
+
+#hakkımızda{
+  font-size: 16px;
+    font-family: roboto;
+    padding: 10px;
+    line-height: 1.4;
+    background-color: darkseagreen;
+    text-align: center;
+    font-style: italic;
+   
+
+}
+
+
+
+
 
 
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
-  /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
-  font-size: 10px;
+  font-size: 40px;
+  text-align: center;
 }
+  
+.iletişim {
+    border-top: 1px dashed black;
+    padding: 20px 0;
+    text-align: unset;
+    background-color: rgb(84, 186, 207);
+    color: crimson;
+    float: right;
+    margin-bottom: 30px;
+    
+    
+  }
+
+  /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
+  
 
 h2, h3, h4, h5, h6 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Font size'ı 30px yapın*/
-  font-size: 10px;
+  font-size: 30px;
 }
-
-/*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
-
+p{
 font-size: 16px;
-font-family: roboto;
-padding: 10px;
-line-height: 1.4;
-
-*/
+  font-family: roboto;
+  padding: 10px;
+  line-height: 1.4;
+}
 
 
 /*======= Sayfadaki TÜM imajlar için aşağıdaki özellikleri içeren bir selector yaratın:
